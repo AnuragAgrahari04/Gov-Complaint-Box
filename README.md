@@ -117,7 +117,4 @@ python app.py
 
 ---
 
-## 🙋‍♂️ Author
 
-**Sarthak Sachan**  
-📫 [LinkedIn](https://www.linkedin.com/in/sarthak-sachan-99b836291) | ✉️ sarthaksachan007@gmail.com
