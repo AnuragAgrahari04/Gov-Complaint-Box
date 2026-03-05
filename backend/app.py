@@ -25,10 +25,7 @@ def create_app():
     app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max upload
 
     # ─── Extensions ───────────────────────────────────────────────────────────
-    CORS(app, resources={r"/api/*": {"origins": [
-        "http://localhost:3000",
-        "https://vercel.com/anurag-agraharis-projects/gov-complaint-box/CJVzhRzoiVZLe7SqufT6c9o4D2hR"  # Replace with your actual Vercel domain
-    ]}})
+    CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
     db.init_app(app)
     bcrypt.init_app(app)
     jwt.init_app(app)
