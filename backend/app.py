@@ -27,7 +27,7 @@ def create_app():
     # ─── Extensions ───────────────────────────────────────────────────────────
     CORS(app, resources={r"/api/*": {"origins": [
         "http://localhost:3000",
-        "https://gov-complaint-box-anurag-agraharis-projects.vercel.app"  # Replace with your actual Vercel domain
+        "https://vercel.com/anurag-agraharis-projects/gov-complaint-box/CJVzhRzoiVZLe7SqufT6c9o4D2hR"  # Replace with your actual Vercel domain
     ]}})
     db.init_app(app)
     bcrypt.init_app(app)
