@@ -83,4 +83,9 @@ def _seed_admin():
 
 if __name__ == '__main__':
     app = create_app()
-    app.run(debug=os.getenv('FLASK_DEBUG', 'True') == 'True', port=5000)
+    # Use the PORT environment variable provided by Render, default to 5000 for local dev
+    port = int(os.environ.get("PORT", 5000))
+    # Set debug to False for production
+    debug_mode = os.getenv('FLASK_DEBUG', 'False') == 'True'
+
+    app.run(host='0.0.0.0', port=port, debug=debug_mode)
