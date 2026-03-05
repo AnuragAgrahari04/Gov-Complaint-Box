@@ -1,0 +1,62 @@
+# General
+# Ignore editor/temp files and OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+.env
+*.py[cod]
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+*.egg-info/
+
+# Instance / database files
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads (user files)
+backend/uploads/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+build/
+frontend/build/
+dist/
+
+# Environment files for local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Lockfiles (optional to ignore)
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-error.log
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Misc logs and generated files
+*.log
+
+# End of file
