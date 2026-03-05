@@ -12,5 +12,5 @@ transformers==4.44.2
 torch
 pillow==10.4.0
 sentence-transformers==3.0.1
-pydantic==2.8.2
-marshmallow==3.21.3
+pydantic
+marshmallow
