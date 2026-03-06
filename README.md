@@ -5,6 +5,28 @@
 
 ---
 
+# 🌐 Live Demo
+
+| Service | Live URL |
+| :--- | :--- |
+| **🖥️ Frontend (Citizen + Admin Portal)** | [https://gov-complaint-box-04.vercel.app/login](https://gov-complaint-box-04.vercel.app/login) |
+| **⚙️ Backend REST API** | [https://gov-complaint-box.onrender.com](https://gov-complaint-box.onrender.com) |
+
+---
+
+# 🔐 Demo Credentials
+
+To test the full functionality of the platform, you can use the pre-seeded Admin account or register your own Citizen account.
+
+| Role | Email | Password |
+| :--- | :--- | :--- |
+| **Admin** | `admin@gcb.gov.in` | `Admin@123` |
+| **Citizen** | *Register a new account* | *Your choice* |
+
+⚠️ Hosted on Render free tier.
+
+---
+
 ## 🌟 What Is This?
 
 Gov-Complaint-Box is a full-stack civic-tech platform that lets citizens submit complaints to government departments and tracks them through resolution — powered by AI for automatic classification, urgency detection, and department routing.
